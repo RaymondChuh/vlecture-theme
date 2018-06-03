@@ -53,9 +53,9 @@
           ## \u00A9 is the copyright symbol.
           ## \u2013 is the en-dash. It looks like a year, but it isn't.
           <p class="copyright">${_(
-          u"\u00A9 2012\u2013{year} edX Inc.  All rights reserved except where noted.  "
-          u"EdX, Open edX and the edX and Open edX logos are registered trademarks "
-          u"or trademarks of edX Inc."
+          u"\u00A9 2017\u2013{year} VLecture Pty Ltd.  All rights reserved except where noted.  "
+          u"VLecture and VLecture logos are registered trademarks "
+          u"or trademarks of VLecture Pty Ltd."
           ).format(year=datetime.datetime.now().year)}
           ${u" | {icp}".format(icp=getattr(settings,'ICP_LICENSE')) if getattr(settings,'ICP_LICENSE',False) else ""}
 	  </p>
